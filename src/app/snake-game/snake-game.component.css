@@ -1,0 +1,54 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.game-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #000;
+  font-size: 20px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.game-over button {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.text-white {
+  color: white;
+}
+
+canvas {
+  border-radius: 20px; /* Adjust the radius as needed */
+  border: 2px solid #000; /* Optional: Adds a border to the canvas */
+  display: block;
+  margin: 0 auto;
+}
